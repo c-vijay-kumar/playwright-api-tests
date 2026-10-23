@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T09:09:17 IST" name="Surefire suite" finished-at="2026-10-23T09:09:22 IST" duration-ms="4347">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T09:09:17 IST" name="Surefire test" finished-at="2026-10-23T09:09:22 IST" duration-ms="4347">
+      <class name="com.QA.api.Test.GetApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.QA.api.Test.GetApiTest@2f177a4b]" started-at="2026-10-23T09:09:17 IST" name="setup" finished-at="2026-10-23T09:09:20 IST" duration-ms="2856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getapitest()[pri:0, instance:com.QA.api.Test.GetApiTest@2f177a4b]" started-at="2026-10-23T09:09:20 IST" name="getapitest" finished-at="2026-10-23T09:09:21 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getapitest -->
+        <test-method signature="getuserbyIdTest()[pri:0, instance:com.QA.api.Test.GetApiTest@2f177a4b]" started-at="2026-10-23T09:09:21 IST" name="getuserbyIdTest" finished-at="2026-10-23T09:09:22 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuserbyIdTest -->
+        <test-method is-config="true" signature="tearndown()[pri:0, instance:com.QA.api.Test.GetApiTest@2f177a4b]" started-at="2026-10-23T09:09:22 IST" name="tearndown" finished-at="2026-10-23T09:09:22 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearndown -->
+      </class> <!-- com.QA.api.Test.GetApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,69 @@
+# Created at 2026-10-22T16:43:57.696
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Removing unused browser at C:\Users\santh\AppData\Local\ms-playwright\chromium-1134'.
+
+# Created at 2026-10-22T16:43:57.698
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Removing unused browser at C:\Users\santh\AppData\Local\ms-playwright\chromium_headless_shell-1200'.
+
+# Created at 2026-10-22T16:43:57.699
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Removing unused browser at C:\Users\santh\AppData\Local\ms-playwright\firefox-1463'.
+
+# Created at 2026-10-22T16:43:58.044
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Removing unused browser at C:\Users\santh\AppData\Local\ms-playwright\webkit-2070'.
+
+# Created at 2026-10-22T16:43:59.029
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Downloading Chromium 131.0.6778.33 (playwright build v1148)[2m from https://playwright.azureedge.net/builds/chromium/1148/chromium-win64.zip[22m'.
+
+# Created at 2026-10-22T16:44:00.797
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|                                                                                |   0% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:02.215
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■                                                                        |  10% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:04.204
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■                                                                |  20% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:05.962
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:07.343
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:08.837
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:10.844
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:17.917
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:22.956
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:26.378
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:29.095
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 136.9 MiB'.
+
+# Created at 2026-10-22T16:44:29.096
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Chromium 131.0.6778.33 (playwright build v1148) downloaded to C:\Users\santh\AppData\Local\ms-playwright\chromium-1148'.
+
+# Created at 2026-10-22T16:44:30.176
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Downloading Chromium Headless Shell 131.0.6778.33 (playwright build v1148)[2m from https://playwright.azureedge.net/builds/chromium/1148/chromium-headless-shell-win64.zip[22m'.
+
+# Created at 2026-10-22T16:44:31.444
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: EXIT
+java.io.EOFException
+	at org.apache.maven.surefire.api.stream.AbstractStreamDecoder.read(AbstractStreamDecoder.java:444)
+	at org.apache.maven.surefire.api.stream.AbstractStreamDecoder.read(AbstractStreamDecoder.java:419)
+	at org.apache.maven.surefire.api.stream.AbstractStreamDecoder.readMessageType(AbstractStreamDecoder.java:116)
+	at org.apache.maven.surefire.booter.stream.CommandDecoder.decode(CommandDecoder.java:77)
+	at org.apache.maven.surefire.booter.spi.CommandChannelDecoder.decode(CommandChannelDecoder.java:60)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+
+# Created at 2026-10-22T16:44:31.446
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|                                                                                |   0% of 87.7 MiB'.
+
