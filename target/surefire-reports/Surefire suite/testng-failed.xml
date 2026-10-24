@@ -3,12 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.QA.api.Test.GetApiTest">
+      <class name="com.QA.api.Test.PUT.putAPI">
         <methods>
+          <include name="PUTAPI"/>
           <include name="setup"/>
-          <include name="getuserbyIdTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.QA.api.Test.GetApiTest -->
+      </class> <!-- com.QA.api.Test.PUT.putAPI -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
