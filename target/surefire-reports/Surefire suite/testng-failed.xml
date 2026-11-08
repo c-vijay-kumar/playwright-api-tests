@@ -3,12 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.QA.api.Test.Day22.AuthenticationApiTest">
+      <class name="com.QA.api.Test.Day22.apiUIintegrationTest">
         <methods>
-          <include name="loginWithWrongPasswordFails"/>
-          <include name="loginThroughAPI"/>
+          <include name="apilogin"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.QA.api.Test.Day22.AuthenticationApiTest -->
+      </class> <!-- com.QA.api.Test.Day22.apiUIintegrationTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
