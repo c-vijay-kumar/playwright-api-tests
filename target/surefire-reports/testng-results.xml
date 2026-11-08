@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-08T12:14:09 IST" name="Surefire suite" finished-at="2026-11-08T12:14:29 IST" duration-ms="20594">
+  <suite started-at="2026-11-08T21:36:45 IST" name="Surefire suite" finished-at="2026-11-08T21:37:03 IST" duration-ms="18294">
     <groups>
     </groups>
-    <test started-at="2026-11-08T12:14:09 IST" name="Surefire test" finished-at="2026-11-08T12:14:29 IST" duration-ms="20594">
-      <class name="com.QA.api.Test.Day22.apiUIintegrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.QA.api.Test.Day22.apiUIintegrationTest@378542de]" started-at="2026-11-08T12:14:09 IST" name="setup" finished-at="2026-11-08T12:14:20 IST" duration-ms="10755" status="PASS">
+    <test started-at="2026-11-08T21:36:45 IST" name="Surefire test" finished-at="2026-11-08T21:37:03 IST" duration-ms="18294">
+      <class name="com.QA.api.Test.Day23paralleltesting.Tests.CrossBrowserTest">
+        <test-method signature="verifyToolshopAcrossBrowsers(java.lang.String)[pri:0, instance:com.QA.api.Test.Day23paralleltesting.Tests.CrossBrowserTest@23f7d05d]" started-at="2026-11-08T21:36:45 IST" name="verifyToolshopAcrossBrowsers" data-provider="browserProvider" finished-at="2026-11-08T21:36:51 IST" duration-ms="5689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="apilogin()[pri:0, instance:com.QA.api.Test.Day22.apiUIintegrationTest@378542de]" started-at="2026-11-08T12:14:22 IST" name="apilogin" finished-at="2026-11-08T12:14:29 IST" duration-ms="7321" status="PASS">
+        </test-method> <!-- verifyToolshopAcrossBrowsers -->
+        <test-method signature="verifyToolshopAcrossBrowsers(java.lang.String)[pri:0, instance:com.QA.api.Test.Day23paralleltesting.Tests.CrossBrowserTest@23f7d05d]" started-at="2026-11-08T21:36:51 IST" name="verifyToolshopAcrossBrowsers" data-provider="browserProvider" finished-at="2026-11-08T21:37:00 IST" duration-ms="9613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apilogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.QA.api.Test.Day22.apiUIintegrationTest@378542de]" started-at="2026-11-08T12:14:29 IST" name="teardown" finished-at="2026-11-08T12:14:29 IST" duration-ms="426" status="PASS">
+        </test-method> <!-- verifyToolshopAcrossBrowsers -->
+        <test-method signature="verifyToolshopAcrossBrowsers(java.lang.String)[pri:0, instance:com.QA.api.Test.Day23paralleltesting.Tests.CrossBrowserTest@23f7d05d]" started-at="2026-11-08T21:37:00 IST" name="verifyToolshopAcrossBrowsers" data-provider="browserProvider" finished-at="2026-11-08T21:37:03 IST" duration-ms="2890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webkit]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.QA.api.Test.Day22.apiUIintegrationTest -->
+        </test-method> <!-- verifyToolshopAcrossBrowsers -->
+      </class> <!-- com.QA.api.Test.Day23paralleltesting.Tests.CrossBrowserTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

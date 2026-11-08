@@ -3,6 +3,9 @@ C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\APIR
 C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\Day22\apiUIintegrationTest.java
 C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\Day22\AuthenticationApiTest.java
 C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\Day22\ProductAPIUITest.java
+C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\Day23paralleltesting\Base\BaseTest.java
+C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\Day23paralleltesting\Tests\CrossBrowserTest.java
+C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\Day23paralleltesting\Tests\ParallelExecutionTest.java
 C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\GetApiTest.java
 C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\PostcallasJsonfilebody.java
 C:\Users\santh\Documents\playwright-api-tests\src\test\java\com\QA\api\Test\PostCreateOrderAPI.java
